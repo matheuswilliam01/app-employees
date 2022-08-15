@@ -1,0 +1,11 @@
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login {
+    width: clamp(300px, 100%, 350px);
+    display: flex;
+    flex-direction: column;
+}

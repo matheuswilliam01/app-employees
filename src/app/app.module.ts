@@ -7,10 +7,12 @@ import { PagesModule } from './pages/pages.module';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { environment } from 'src/environments/environment';
+import { ExitComponent } from './utils/exit/exit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExitComponent
   ],
   imports: [
     BrowserModule,
